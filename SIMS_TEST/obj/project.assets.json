@@ -1,0 +1,86 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "SIMS_Demo/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/SIMS_Demo.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SIMS_Demo.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SIMS_Demo/1.0.0": {
+      "type": "project",
+      "path": "../SIMS_Demo/SIMS_Demo.csproj",
+      "msbuildProject": "../SIMS_Demo/SIMS_Demo.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "SIMS_Demo >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Applied Programming and Design Principles\\SIMS-main\\SIMS_Demo\\SIMS_TEST\\SIMS_TEST.csproj",
+      "projectName": "SIMS_TEST",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\Applied Programming and Design Principles\\SIMS-main\\SIMS_Demo\\SIMS_TEST\\SIMS_TEST.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\Applied Programming and Design Principles\\SIMS-main\\SIMS_Demo\\SIMS_TEST\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\Admin\\Desktop\\Applied Programming and Design Principles\\SIMS-main\\SIMS_Demo\\SIMS_Demo\\SIMS_Demo.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Desktop\\Applied Programming and Design Principles\\SIMS-main\\SIMS_Demo\\SIMS_Demo\\SIMS_Demo.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
